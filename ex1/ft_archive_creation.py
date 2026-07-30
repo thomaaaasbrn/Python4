@@ -5,6 +5,7 @@ def archive() -> None:
     if len(sys.argv) < 2:
         print(f"Usage: {sys.argv[0]} <file>")
         return
+
     try:
         print("=== Cyber Archives Recovery & Preservation ===")
         print(f"Accessing file '{sys.argv[1]}'")
