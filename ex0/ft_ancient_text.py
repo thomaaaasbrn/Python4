@@ -5,7 +5,7 @@ def ancient_test() -> None:
     if len(sys.argv) < 2:
         print(f"Usage: {sys.argv[0]} <file>")
         return
-    try:
+    try: 
         print("=== Cyber Archives Recovery ===")
         print(f"Accessing file '{sys.argv[1]}'")
         f = open(sys.argv[1])
